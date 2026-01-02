@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1254\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 *** CRNG (Collatz Random Number Generator) TEST RAPORU ***\
+Tarih: 02.01.2026\
+Test Edilen Algoritma: Collatz (3n+1) Tabanl\uc0\u305  PRNG\
+Ba\uc0\u351 lang\u305 \'e7 De\u287 eri (Seed): 27\
+Aral\uc0\u305 k (Mod): 0 - 100\
+\
+--- \'dcRET\uc0\u304 LEN SAYI D\u304 Z\u304 S\u304  (\u304 LK 20 ADIM) ---\
+\
+Ad\uc0\u305 m 01 | \u304 \'e7 De\u287 er: 82   -> \'c7\u305 kt\u305 : 82\
+Ad\uc0\u305 m 02 | \u304 \'e7 De\u287 er: 41   -> \'c7\u305 kt\u305 : 41\
+Ad\uc0\u305 m 03 | \u304 \'e7 De\u287 er: 124  -> \'c7\u305 kt\u305 : 24\
+Ad\uc0\u305 m 04 | \u304 \'e7 De\u287 er: 62   -> \'c7\u305 kt\u305 : 62\
+Ad\uc0\u305 m 05 | \u304 \'e7 De\u287 er: 31   -> \'c7\u305 kt\u305 : 31\
+Ad\uc0\u305 m 06 | \u304 \'e7 De\u287 er: 94   -> \'c7\u305 kt\u305 : 94\
+Ad\uc0\u305 m 07 | \u304 \'e7 De\u287 er: 47   -> \'c7\u305 kt\u305 : 47\
+Ad\uc0\u305 m 08 | \u304 \'e7 De\u287 er: 142  -> \'c7\u305 kt\u305 : 42\
+Ad\uc0\u305 m 09 | \u304 \'e7 De\u287 er: 71   -> \'c7\u305 kt\u305 : 71\
+Ad\uc0\u305 m 10 | \u304 \'e7 De\u287 er: 214  -> \'c7\u305 kt\u305 : 14\
+Ad\uc0\u305 m 11 | \u304 \'e7 De\u287 er: 107  -> \'c7\u305 kt\u305 : 7\
+Ad\uc0\u305 m 12 | \u304 \'e7 De\u287 er: 322  -> \'c7\u305 kt\u305 : 22\
+Ad\uc0\u305 m 13 | \u304 \'e7 De\u287 er: 161  -> \'c7\u305 kt\u305 : 61\
+Ad\uc0\u305 m 14 | \u304 \'e7 De\u287 er: 484  -> \'c7\u305 kt\u305 : 84\
+Ad\uc0\u305 m 15 | \u304 \'e7 De\u287 er: 242  -> \'c7\u305 kt\u305 : 42\
+Ad\uc0\u305 m 16 | \u304 \'e7 De\u287 er: 121  -> \'c7\u305 kt\u305 : 21\
+Ad\uc0\u305 m 17 | \u304 \'e7 De\u287 er: 364  -> \'c7\u305 kt\u305 : 64\
+Ad\uc0\u305 m 18 | \u304 \'e7 De\u287 er: 182  -> \'c7\u305 kt\u305 : 82\
+Ad\uc0\u305 m 19 | \u304 \'e7 De\u287 er: 91   -> \'c7\u305 kt\u305 : 91\
+Ad\uc0\u305 m 20 | \u304 \'e7 De\u287 er: 274  -> \'c7\u305 kt\u305 : 74\
+\
+--- \uc0\u304 STAT\u304 ST\u304 KSEL ANAL\u304 Z ---\
+\
+Toplam \'dcretilen Say\uc0\u305 : 20\
+Minimum De\uc0\u287 er: 7\
+Maksimum De\uc0\u287 er: 94\
+Ortalama: 52.8\
+\
+Da\uc0\u287 \u305 l\u305 m Analizi:\
+- \'c7ift Say\uc0\u305 lar: 12 adet (%60)\
+- Tek Say\uc0\u305 lar:  8 adet (%40)\
+\
+Tekrar Eden De\uc0\u287 erler:\
+- 82 say\uc0\u305 s\u305  2 kez tekrar etti.\
+- 42 say\uc0\u305 s\u305  2 kez tekrar etti.\
+\
+SONU\'c7:\
+Collatz algoritmas\uc0\u305  k\u305 sa vadede kaotik bir da\u287 \u305 l\u305 m sergilemi\u351 tir. Ancak deterministik yap\u305 s\u305  gere\u287 i seed (27) bilindi\u287 inde ayn\u305  dizi tekrar \'fcretilebilmektedir. Kriptografik g\'fcvenlik i\'e7in yetersizdir, ancak basit sim\'fclasyonlar i\'e7in kullan\u305 labilir.}
